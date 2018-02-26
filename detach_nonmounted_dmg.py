@@ -26,7 +26,7 @@ def get_dmg_info():
     return plistlib.readPlistFromString(out)
 
 def get_dev_name(entity):
-    """Return the base device name for a given entity
+    """Return the device name for a given entity
     (list) -> string
     
     >>> get_disk(entity)
