@@ -43,7 +43,6 @@ def is_mounted(image):
 if __name__ == '__main__':
     plist = get_dmg_info()
 
-    # TODO: need to check if nothing is mounted first
     for image in plist['images']:
         if is_mounted(image):
             continue
