@@ -37,8 +37,7 @@ def is_mounted(image):
     >>> is_mounted(image)
     False
     """
-    if 'mount-point' in str(image):
-        return
+    return 'mount-point' in str(image)
 
 
 if __name__ == '__main__':
