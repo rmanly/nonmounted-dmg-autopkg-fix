@@ -49,6 +49,6 @@ if __name__ == '__main__':
         if is_mounted(image):
             continue
         dev_name = get_dev_name(image['system-entities'])
-        # Toyed with the idea of logging…I don't care enough
+        # Toyed with the idea of logging, I don't care enough
         # name = dev_name.split('/')[-1]
         detach(dev_name)
