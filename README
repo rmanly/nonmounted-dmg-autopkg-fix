@@ -1,0 +1,9 @@
+This script is intended to stop the dmg mounting errors encountered from time to time during autopkg recipe runs.
+
+Such as the following snippet generated via AutoPkgr's email notification system.
+
+'Error in local.munki.glenbrook225.Motion: Processor: MunkiImporter: Error: creating pkginfo for /Volumes/Storage/AutoPkg/Cache/local.munki.glenbrook225.Motion/Motion-5.4.dmg failed: Could not mount /Volumes/Storage/AutoPkg/Cache/local.munki.glenbrook225.Motion/Motion-5.4.dmg!'
+
+It works by checking the output of the `hdiutil info` command to see if dmgs are mounted or not. If the dmg info is available but not mounted then this is probably an error and the script will attempt to detach the disk associated with the dmg.
+
+I intend to run this on my autopkging computer an hour or so before AutoPkgr runs every morning in order to ensure a clean run.
