@@ -5,6 +5,7 @@ process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 out, _ = process.communicate()
 plist = plistlib.readPlistFromString(out)
 
+i = 0
 # TODO: account for multiple images in various states
 for image in plist['images']:
     for entity in image['system-entities']:
