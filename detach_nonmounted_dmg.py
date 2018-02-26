@@ -2,6 +2,11 @@
 import plistlib
 import subprocess
 
+__author__ = 'Ryan Manly'
+__copyright__ = 'Copyright (C) 2018 Ryan Manly'
+__license__ = 'MIT License'
+__version__ = '0.1'
+
 def detach(dev_name):
     """Attempt to detach a dmg based on device name."""
 
