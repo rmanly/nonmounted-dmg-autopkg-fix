@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>framework</key>
+	<string>480.30.2</string>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>autodiskmount</key>
+			<true/>
+			<key>blockcount</key>
+			<integer>8053710</integer>
+			<key>blocksize</key>
+			<integer>512</integer>
+			<key>hdid-pid</key>
+			<integer>18487</integer>
+			<key>icon-path</key>
+			<string>/System/Library/PrivateFrameworks/DiskImages.framework/Resources/CDiskImage.icns</string>
+			<key>image-alias</key>
+			<data>
+			AAAAAAG+AAIAAAdTdG9yYWdlAAAAAAAAAAAAAAAAAAAAAAAAAADQ
+			CQGBSCsAACV2tPYOTW90aW9uLTUuNC5kbWcAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJeqL
+			Eda2lJZkZXZpZGRza/////8AAAkAAAAAAAAAAAAAAAAAAAAAH2xv
+			Y2FsLm11bmtpLmdsZW5icm9vazIyNS5Nb3Rpb24AABAACAAA0AlH
+			0QAAABEACAAA1rbo9gAAAAEADCV2tPYAGvE7ABrujwACAEdTdG9y
+			YWdlOkF1dG9Qa2c6AENhY2hlOgBsb2NhbC5tdW5raS5nbGVuYnJv
+			b2syMjUuTW90aW9uOgBNb3Rpb24tNS40LmRtZwAADgAeAA4ATQBv
+			AHQAaQBvAG4ALQA1AC4ANAAuAGQAbQBnAA8AEAAHAFMAdABvAHIA
+			YQBnAGUAEgA9L0F1dG9Qa2cvQ2FjaGUvbG9jYWwubXVua2kuZ2xl
+			bmJyb29rMjI1Lk1vdGlvbi9Nb3Rpb24tNS40LmRtZwAAEwAQL1Zv
+			bHVtZXMvU3RvcmFnZf//AAA=
+			</data>
+			<key>image-encrypted</key>
+			<false/>
+			<key>image-path</key>
+			<string>/Volumes/Storage/AutoPkg/Cache/local.munki.glenbrook225.Motion/Motion-5.4.dmg</string>
+			<key>image-type</key>
+			<string>UDIF read-only [write once]</string>
+			<key>owner-uid</key>
+			<integer>502</integer>
+			<key>removable</key>
+			<true/>
+			<key>system-entities</key>
+			<array>
+				<dict>
+					<key>content-hint</key>
+					<string>GUID_partition_scheme</string>
+					<key>dev-entry</key>
+					<string>/dev/disk2</string>
+				</dict>
+				<dict>
+					<key>content-hint</key>
+					<string>C12A7328-F81F-11D2-BA4B-00A0C93EC93B</string>
+					<key>dev-entry</key>
+					<string>/dev/disk2s1</string>
+				</dict>
+				<dict>
+					<key>content-hint</key>
+					<string>48465300-0000-11AA-AA11-00306543ECAC</string>
+					<key>dev-entry</key>
+					<string>/dev/disk2s2</string>
+				</dict>
+			</array>
+			<key>system-image</key>
+			<true/>
+			<key>writeable</key>
+			<true/>
+		</dict>
+	</array>
+	<key>revision</key>
+	<string>10.13v480.30.2</string>
+	<key>vendor</key>
+	<string>Apple</string>
+</dict>
+</plist>

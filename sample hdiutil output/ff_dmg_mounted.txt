@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>framework</key>
+	<string>480.30.2</string>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>autodiskmount</key>
+			<true/>
+			<key>blockcount</key>
+			<integer>342098</integer>
+			<key>blocksize</key>
+			<integer>512</integer>
+			<key>hdid-pid</key>
+			<integer>12449</integer>
+			<key>icon-path</key>
+			<string>/System/Library/PrivateFrameworks/DiskImages.framework/Resources/CDiskImage.icns</string>
+			<key>image-alias</key>
+			<data>
+			AAAAAAFWAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAAAA
+			AAAAQkQAAf////8SRmlyZWZveCA1OC4wLjIuZG1nAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////
+			/wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAACURv
+			d25sb2FkcwAAAgApLzpVc2VyczpyeWFuOkRvd25sb2FkczpGaXJl
+			Zm94IDU4LjAuMi5kbWcAAA4AJgASAEYAaQByAGUAZgBvAHgAIAA1
+			ADgALgAwAC4AMgAuAGQAbQBnAA8AGgAMAE0AYQBjAGkAbgB0AG8A
+			cwBoACAASABEABIAJ1VzZXJzL3J5YW4vRG93bmxvYWRzL0ZpcmVm
+			b3ggNTguMC4yLmRtZwAAEwABLwAAFQACAAv//wAA
+			</data>
+			<key>image-encrypted</key>
+			<false/>
+			<key>image-path</key>
+			<string>/Users/ryan/Downloads/Firefox 58.0.2.dmg</string>
+			<key>image-type</key>
+			<string>UDIF read-only compressed (bzip2)</string>
+			<key>owner-uid</key>
+			<integer>501</integer>
+			<key>removable</key>
+			<true/>
+			<key>system-entities</key>
+			<array>
+				<dict>
+					<key>content-hint</key>
+					<string>Apple_partition_scheme</string>
+					<key>dev-entry</key>
+					<string>/dev/disk2</string>
+				</dict>
+				<dict>
+					<key>content-hint</key>
+					<string>Apple_partition_map</string>
+					<key>dev-entry</key>
+					<string>/dev/disk2s1</string>
+				</dict>
+				<dict>
+					<key>content-hint</key>
+					<string>Apple_Driver_ATAPI</string>
+					<key>dev-entry</key>
+					<string>/dev/disk2s2</string>
+				</dict>
+				<dict>
+					<key>content-hint</key>
+					<string>Apple_HFSX</string>
+					<key>dev-entry</key>
+					<string>/dev/disk2s3</string>
+					<key>mount-point</key>
+					<string>/Volumes/Firefox</string>
+				</dict>
+			</array>
+			<key>writeable</key>
+			<false/>
+		</dict>
+	</array>
+	<key>revision</key>
+	<string>10.13v480.30.2</string>
+	<key>vendor</key>
+	<string>Apple</string>
+</dict>
+</plist>
