@@ -1,4 +1,5 @@
 #!/usr/bin/python
+
 import plistlib
 import subprocess
 
@@ -6,6 +7,7 @@ __author__ = 'Ryan Manly'
 __copyright__ = 'Copyright (C) 2018 Ryan Manly'
 __license__ = 'MIT License'
 __version__ = '0.1'
+
 
 def detach(dev_name):
     """Attempt to detach a dmg based on device name."""
@@ -16,6 +18,17 @@ def detach(dev_name):
     except subprocess.CalledProcessError:
         print 'Could not detach disk' + dev_name
 
+
+def get_dev_name(entity):
+    """Return the device name for a given entity
+    (list) -> string
+    
+    >>> get_dev_name(entity)
+    /dev/disk2
+    """
+    return entity[0]['dev-entry']
+
+
 def get_dmg_info():
     """Return output of hdiutil info command
     () -> plist
@@ -25,14 +38,6 @@ def get_dmg_info():
     out, _ = process.communicate()
     return plistlib.readPlistFromString(out)
 
-def get_dev_name(entity):
-    """Return the device name for a given entity
-    (list) -> string
-    
-    >>> get_disk(entity)
-    /dev/disk2
-    """
-    return entity[0]['dev-entry']
 
 def is_mounted(image):
     """Return whether the image shows a mount point
